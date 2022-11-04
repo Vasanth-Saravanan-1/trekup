@@ -1,0 +1,56 @@
+.destination{
+    margin: 2rem 1rem;
+    border-radius:4px;
+
+    
+}
+.destination h1{
+    font-size: 3rem;
+    text-align:center;
+
+}
+.destination p{
+    font-size: 2rem;
+    text-align:center;
+}
+.first-des{
+ 
+    margin-top: 4.5rem;
+}
+.second-des{
+ 
+    margin-top: 4.5rem;
+}
+
+
+
+@media screen and (max-width:784px){
+    .destination{
+        margin-top: 2rem;
+    }
+    .destination h1{
+        font-size: 2rem;
+        text-align:center;
+    
+    }
+    .destination p{
+        font-size: 1rem;
+        text-align:center;
+    }
+    .first-des{
+     
+        margin-top: 2.5rem;
+    }
+    .second-des{
+     
+        margin-top: 2.5rem;
+    }
+    .destination.image{
+        width:100%;
+        height:100%;
+        transition: 0.3s ease-in-out;
+        border-radius: 7px;
+    }
+
+    
+}
